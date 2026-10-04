@@ -1,159 +1,203 @@
+```html
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rajat Pancha | Portfolio</title>
-     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css">
+</head>
 
 <body>
 
-    <header>
-        <h1>Rajat Pancha</h1>
+    <header class="site-header">
+        <div class="container header-content">
 
-        <nav>
-            <ul>
-                <li><a href="#about">About</a></li>
-                <li><a href="#skills">Skills</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
+            <div class="brand">
+                <h1>Rajat Pancha</h1>
+            </div>
+
+            <nav>
+                <ul class="nav-list">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+
+        </div>
     </header>
+
 
     <main>
 
-        <section id="about">
-            <h2>About Me</h2>
+        <section id="about" class="about-section">
+            <div class="container about-content">
 
-            <img src="image.jpeg" alt="Profile image of Rajat Pancha" width="100" height="100">
+                <div>
+                    <h2>About Me</h2>
 
-            <p>
-                I am a Bachelor of Information Technology student and an aspiring web
-                developer from Nepal. I enjoy creating practical software projects and
-                developing my skills in frontend and backend web development.
-            </p>
+                    <p>
+                        I am a Bachelor of Information Technology student and an aspiring
+                        web developer from Nepal. I enjoy creating practical software
+                        projects and developing my skills in frontend and backend web development.
+                    </p>
 
-            <p>
-                My current focus is on HTML, CSS, JavaScript, React, databases, APIs,
-                and backend development. My long-term goal is to become a full-stack
-                developer and build useful real-world applications.
-            </p>
+                    <p>
+                        My current focus is on HTML, CSS, JavaScript, React, databases,
+                        APIs, and backend development. My long-term goal is to become a
+                        full-stack developer and build useful real-world applications.
+                    </p>
+                </div>
+
+                <img src="image.jpeg" alt="Profile image of Rajat Pancha" width="100" height="100">
+
+            </div>
         </section>
 
 
-        <section id="skills">
-            <h2>Technical Skills</h2>
+        <section id="skills" class="skills-section">
+            <div class="container">
 
-            <dl>
-                <dt>HTML</dt>
-                <dd>Semantic HTML, page structure, navigation, and forms.</dd>
+                <h2>Technical Skills</h2>
 
-                <dt>CSS</dt>
-                <dd>Responsive layouts, styling, spacing, and visual design.</dd>
+                <div class="skills-grid">
 
-                <dt>JavaScript</dt>
-                <dd>Functions, arrays, objects, DOM manipulation, events, filtering, and searching.</dd>
+                    <article class="skill-card">
+                        <h3>HTML</h3>
+                        <p>Semantic HTML, page structure, navigation, and forms.</p>
+                    </article>
 
-                <dt>React</dt>
-                <dd>Component-based frontend development and interactive user interfaces.</dd>
+                    <article class="skill-card">
+                        <h3>CSS</h3>
+                        <p>Responsive layouts, styling, spacing, and visual design.</p>
+                    </article>
 
-                <dt>MySQL</dt>
-                <dd>Basic relational database concepts and SQL knowledge.</dd>
+                    <article class="skill-card">
+                        <h3>JavaScript</h3>
+                        <p>Functions, arrays, objects, DOM manipulation, events, filtering, and searching.</p>
+                    </article>
 
-                <dt>Git and GitHub</dt>
-                <dd>Version control and source-code repository management.</dd>
-            </dl>
+                    <article class="skill-card">
+                        <h3>React</h3>
+                        <p>Component-based frontend development and interactive user interfaces.</p>
+                    </article>
+
+                    <article class="skill-card">
+                        <h3>MySQL</h3>
+                        <p>Basic relational database concepts and SQL knowledge.</p>
+                    </article>
+
+                    <article class="skill-card">
+                        <h3>Git and GitHub</h3>
+                        <p>Version control and source-code repository management.</p>
+                    </article>
+
+                </div>
+
+            </div>
         </section>
 
 
-        <section id="projects">
-            <h2>Projects</h2>
+        <section id="projects" class="projects-section">
+            <div class="container">
 
-            <article>
-                <h3>JavaScript Practice</h3>
+                <h2>Projects</h2>
 
-                <p>
-                    A JavaScript learning repository containing exercises covering
-                    arrays, array methods, functions, objects, searching, filtering,
-                    and other programming fundamentals.
-                </p>
+                <div class="projects-grid">
 
-                <a href="https://github.com/RajatPancha/javascript-practice">
-                    View JavaScript Practice Repository
-                </a>
-            </article>
+                    <article class="project-card">
+                        <h3>JavaScript Practice</h3>
 
+                        <p>
+                            A JavaScript learning repository containing exercises covering
+                            arrays, array methods, functions, objects, searching, filtering,
+                            and other programming fundamentals.
+                        </p>
 
-            <article>
-                <h3>FOCUSFLOW Task Manager</h3>
-
-                <p>
-                    A productivity and task-management application focused on creating,
-                    editing, completing, deleting, searching, and filtering tasks.
-                    The project also includes productivity statistics and focus-session
-                    features.
-                </p>
-
-                <a href="https://github.com/RajatPancha/javascript-practice">
-                    View Project Repository
-                </a>
-            </article>
+                        <a href="https://github.com/RajatPancha/javascript-practice">
+                            View JavaScript Practice Repository
+                        </a>
+                    </article>
 
 
-            <article>
-                <h3>Student Project Collaboration System</h3>
+                    <article class="project-card">
+                        <h3>FOCUSFLOW Task Manager</h3>
 
-                <p>
-                    A planned web application designed to help students collaborate
-                    on academic projects, manage project roles, organize tasks, and
-                    coordinate project activities.
-                </p>
+                        <p>
+                            A productivity and task-management application focused on creating,
+                            editing, completing, deleting, searching, and filtering tasks.
+                            The project also includes productivity statistics and focus-session features.
+                        </p>
 
-                <a href="https://github.com/RajatPancha/javascript-practice">
-                    View Project Repository
-                </a>
-            </article>
+                        <a href="https://github.com/RajatPancha/javascript-practice">
+                            View Project Repository
+                        </a>
+                    </article>
+
+
+                    <article class="project-card">
+                        <h3>Student Project Collaboration System</h3>
+
+                        <p>
+                            A planned web application designed to help students collaborate
+                            on academic projects, manage project roles, organize tasks, and
+                            coordinate project activities.
+                        </p>
+
+                        <a href="https://github.com/RajatPancha/javascript-practice">
+                            View Project Repository
+                        </a>
+                    </article>
+
+                </div>
+
+            </div>
         </section>
 
 
-        <section id="contact">
-            <h2>Contact Me</h2>
+        <section id="contact" class="contact-section">
+            <div class="container contact-content">
 
-            <form action="#" method="post">
+                <h2>Contact Me</h2>
 
-                <p>
-                    <label for="name">Name:</label>
-                    <input type="text" id="name" name="name" required>
-                </p>
+                <form class="contact-form" action="#" method="post">
 
-                <p>
-                    <label for="email">Email:</label>
-                    <input type="email" id="email" name="email" required>
-                </p>
+                    <p>
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="name" required>
+                    </p>
 
-                <p>
-                    <label for="message">Message:</label>
-                    <textarea id="message"
-                              name="message"
-                              rows="6"
-                              cols="40"
-                              required></textarea>
-                </p>
+                    <p>
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" required>
+                    </p>
 
-                <p>
-                    <button type="submit">Submit</button>
-                </p>
+                    <p>
+                        <label for="message">Message:</label>
+                        <textarea id="message" name="message" rows="6" cols="40" required></textarea>
+                    </p>
 
-            </form>
+                    <p>
+                        <button type="submit">Submit</button>
+                    </p>
+
+                </form>
+
+            </div>
         </section>
 
     </main>
 
 
-    <footer>
-        <p>&copy; 2026 Rajat Pancha</p>
+    <footer class="site-footer">
+        <div class="container">
+            <p>&copy; 2026 Rajat Pancha</p>
+        </div>
     </footer>
 
 </body>
 </html>
+```
